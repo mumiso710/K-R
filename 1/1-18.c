@@ -27,10 +27,9 @@ int get_line_without_white_space(char s[], int lim) {
         if (c == ' ' || c == '\t') {
             --i;
         }
-
-        if (c == '\n') {
-            ++i;
-        }
+    }
+    if (c == '\n') {
+        ++i;
     }
     s[i] = '\0';
     return i;
