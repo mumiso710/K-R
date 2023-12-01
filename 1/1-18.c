@@ -29,6 +29,7 @@ int get_line_without_white_space(char s[], int lim) {
         }
     }
     if (c == '\n') {
+        s[i] = c;
         ++i;
     }
     s[i] = '\0';
