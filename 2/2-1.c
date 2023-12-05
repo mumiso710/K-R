@@ -15,7 +15,7 @@ int main() {
     printf("LONG_MAX:   %20ld\n", LONG_MAX);
     printf("ULONG_MAX:  %20lu\n", ULONG_MAX);
 
-    printf("-------------------------------\n");
+    printf("--------------------------------\n");
 
     printf("CHAR_MIN:   %20d\n", ~((1 << sizeof(char) * 8 - 1) - 1));
     printf("CHAR_MAX:   %20d\n", (1 << sizeof(char) * 8 - 1) - 1);
