@@ -1,20 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
-    float celsius, fahr;
-    int lower, upper, step;
+  float celsius, fahr;
+  int lower, upper, step;
 
-    lower = 0;
-    upper = 300;
-    step = 20;
+  lower = 0;
+  upper = 300;
+  step = 20;
 
-    printf("celsius fahr\n");
-    printf("------------\n");
+  printf("celsius fahr\n");
+  printf("------------\n");
 
-    celsius = lower;
-    while (celsius <= upper) {
-        fahr = celsius * (9.0/5.0) + 32.0;
-        printf("%3.0f %6.1f\n", celsius, fahr);
-        celsius = celsius + step;
-    }
+  celsius = lower;
+  while (celsius <= upper) {
+    fahr = celsius * (9.0 / 5.0) + 32.0;
+    printf("%3.0f %6.1f\n", celsius, fahr);
+    celsius = celsius + step;
+  }
 }
