@@ -17,3 +17,5 @@ int binsearch(int x, int v[], int n) {
   }
   return (x == v[low]) ? low : -1;
 }
+
+int main() {}
